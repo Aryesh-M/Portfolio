@@ -205,6 +205,29 @@ a {
 }
 
 @media only screen and (max-width: 1000px) {
+  .short-intro-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  h2 {
+    font-size: 8rem;
+  }
+
+  p {
+    font-size: 4rem;
+  }
+
+  .button {
+    font-size: 2.5rem;
+    margin: auto;
+    margin-top: 1em;
+  }
+
+  .intro-heading {
+    text-align: center;
+  }
+
   .hamburger {
     display: block;
     border: 0;
