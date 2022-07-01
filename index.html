@@ -47,6 +47,7 @@
       <nav>
         <a href="index.html">
           <img
+            id="logo"
             title="Logo"
             class="logo"
             src="src/images/logo.jpeg"
@@ -67,18 +68,18 @@
             <hr />
           </li>
         </ul>
-        <button class="hamburger" id="hamburger">
+        <button class="hamburger" id="hamburger" onclick="toggleMenu()">
           <!-- Credits -->
           <!-- <a href="https://www.flaticon.com/free-icons/menu" title="menu icons">Menu icons created by Creatype - Flaticon</a> -->
-          <img src="./src/images/menu.png" alt="menu" />
-          <i class="fas fa-bars"></i>
+          <img src="./src/images/menu.png" id="menu" alt="menu" />
+          <!-- <a href="https://www.flaticon.com/free-icons/close" title="close icons">Close icons created by Good Ware - Flaticon</a> -->
         </button>
       </nav>
       <div class="short-intro-section">
         <div class="intro-heading">
           <h2 title="Yash Marakna">Yash Marakna</h2>
           <p title="Website Developer">Web Developer</p>
-          <div class="button"><a href="#about">About me</a></div>
+          <div class="button" id="about-btn"><a href="#about">About me</a></div>
         </div>
       </div>
     </section>

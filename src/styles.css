@@ -311,6 +311,7 @@ a {
     font-size: 5em;
     margin: 0.5em auto;
     width: 80%;
+    border-bottom: 5px solid red;
   }
 
   .information p {
