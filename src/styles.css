@@ -125,6 +125,10 @@ p {
   padding: 80px;
 }
 
+hr {
+  display: none;
+}
+
 .profile {
   width: 300px;
   margin-left: 3em;
@@ -272,6 +276,21 @@ a {
     align-self: flex-end;
   }
 
+  .hamburger img {
+    height: 2em;
+    background-color: white;
+    border-radius: 0.5em;
+  }
+
+  #nav-list a {
+    font-size: 1.15em;
+    margin-left: 1em;
+  }
+
+  hr {
+    display: block;
+  }
+
   ul {
     display: none;
     background-color: #2b2c38;
@@ -284,12 +303,8 @@ a {
 
   nav {
     display: flex;
-    flex-direction: column-reverse;
+    /* flex-direction: column-reverse; */
     background-color: #2b2c38;
-  }
-
-  .logo {
-    display: none;
   }
 
   .information h2 {
