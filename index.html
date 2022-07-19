@@ -27,11 +27,7 @@
     <link rel="stylesheet" href="css/flaticon.css" />
     <link rel="stylesheet" href="css/icomoon.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <style>
-      html {
-        /* scroll-behavior: smooth; */
-      }
-    </style>
+    <style></style>
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
     <nav
@@ -103,13 +99,15 @@
                 <div class="text">
                   <span class="subheading">Hello!</span>
                   <h1 class="mb-4 mt-3">I'm <span>Yash Marakna</span></h1>
-                  <h2 class="mb-4">A Web Developer</h2>
+                  <h2 class="mb-4 typewriter"><span>A Web Developer</span></h2>
                   <p>
-                    <a href="#" class="btn btn-primary py-3 px-4">Hire me</a>
-                    <span
-                      id="my-works"
+                    <a href="#contact-section" class="btn btn-primary py-3 px-4"
+                      >Hire me</a
+                    >
+                    <a
+                      href="#projects-section"
                       class="btn btn-white btn-outline-white py-3 px-4"
-                      >My works</span
+                      >My works</a
                     >
                   </p>
                 </div>
@@ -614,7 +612,10 @@
 
         <div class="row no-gutters block-9">
           <div class="col-md-6 order-md-last d-flex">
-            <form action="#" class="bg-light p-4 p-md-5 contact-form">
+            <form
+              onsubmit="formSubmit()"
+              class="bg-light p-4 p-md-5 contact-form"
+            >
               <div class="form-group">
                 <input
                   type="text"
@@ -676,13 +677,19 @@
                 class="ftco-footer-social list-unstyled float-md-left float-lft mt-5"
               >
                 <li class="ftco-animate">
-                  <a href="#"><span class="icon-twitter"></span></a>
+                  <a href="https://twitter.com/MaraknaYash"
+                    ><span class="icon-twitter"></span
+                  ></a>
                 </li>
                 <li class="ftco-animate">
-                  <a href="#"><span class="icon-facebook"></span></a>
+                  <a href="https://www.facebook.com/Yash.Marakna/"
+                    ><span class="icon-facebook"></span
+                  ></a>
                 </li>
                 <li class="ftco-animate">
-                  <a href="#"><span class="icon-instagram"></span></a>
+                  <a href="https://www.instagram.com/yash_marakna/"
+                    ><span class="icon-instagram"></span
+                  ></a>
                 </li>
               </ul>
             </div>
@@ -743,15 +750,11 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <p>
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
               Copyright &copy;
               <script>
                 document.write(new Date().getFullYear());
               </script>
-              All rights reserved | This template is made with
-              <i class="icon-heart color-danger" aria-hidden="true"></i> by
-              <a href="https://colorlib.com" target="_blank">Colorlib</a>
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              Yash Marakna
             </p>
           </div>
         </div>
@@ -797,18 +800,6 @@
     <script src="js/scrollax.min.js"></script>
 
     <script src="js/main.js"></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        let myWorks = document.getElementById("my-works");
-        console.log(myWorks);
-        myWorks &&
-          myWorks.addEventListener("click", function () {
-            alert();
-            document.querySelector("#projects-section").scrollIntoView({
-              behavior: "smooth",
-            });
-          });
-      });
-    </script>
+    <script></script>
   </body>
 </html>
